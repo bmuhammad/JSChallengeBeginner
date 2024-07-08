@@ -106,4 +106,14 @@ function calcRemainder(num1, num2) {
 
 console.log(calcRemainder(4, 2));
 console.log(calcRemainder(7, 8));
-console.log(calcRemainder(9, 8));
+console.log(calcRemainder(9, 8)); */
+
+/*
+function isOdd(num){
+
+return num % 2 !== 0 ;
+
+}
+console.log(isOdd(15));
+
+*/
