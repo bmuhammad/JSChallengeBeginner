@@ -38,7 +38,7 @@ console.log(calcAreaOfTriangle(3, 2));
 console.log(calcAreaOfTriangle(10, 10));
 console.log(calcAreaOfTriangle(20, 20)); */
 
-function extendString (fruit){
+/* function extendString (fruit){
 
     let extendedString = fruit + "Frontend";
     return extendedString;
@@ -46,6 +46,21 @@ function extendString (fruit){
 
 console.log(extendString("Apple"));
 console.log(extendString("Banana"));
-console.log(extendString("Orange"));
+console.log(extendString("Orange")); */
 
+function sumGreaterThan100(num1, num2){
+
+    let isGreater = num1 + num2 > 100 ? true : false;
+
+    return isGreater;
+
+    /* better
+return num1 + num2 > 100;
+    */
+}
+
+
+console.log(sumGreaterThan100(20, 10));
+console.log(sumGreaterThan100(50, 60));
+console.log(sumGreaterThan100(100, -50));
 
