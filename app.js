@@ -127,3 +127,13 @@ console.log(booleanInteger(1));
 console.log(booleanInteger(2));
 console.log(booleanInteger(5));
 */
+
+/* function isLoggedInAndSubscribed(str1, str2){
+
+    return str1 === "LOGGED_IN" && str2 ==="SUBSCRIBED";
+}
+
+console.log(isLoggedInAndSubscribed("LOGGED_IN", "SUBSCRIBED"));
+console.log(isLoggedInAndSubscribed("LOGGED_IN", "UNSUBSCRIBED"));
+console.log(isLoggedInAndSubscribed("LOGGED_OUT", "SUBSCRIBED")); */
+
