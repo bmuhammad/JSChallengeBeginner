@@ -48,7 +48,7 @@ console.log(extendString("Apple"));
 console.log(extendString("Banana"));
 console.log(extendString("Orange")); */
 
- /* function sumGreaterThan100(num1, num2){
+/* function sumGreaterThan100(num1, num2){
 
     let isGreater = num1 + num2 > 100 ? true : false;
 
@@ -64,7 +64,6 @@ console.log(sumGreaterThan100(20, 10));
 console.log(sumGreaterThan100(50, 60));
 console.log(sumGreaterThan100(100, -50));
  */
-
 
 /* function lessThanOrEqualToZero(num){
 
@@ -88,8 +87,6 @@ console.log(lessThanOrEqualToZero(-2)); */
 console.log(oppositeBoolean(true));
 console.log(oppositeBoolean(false)); */
 
-
-
 /* function isNotZero(num){
 
     return value = num !=0 ? true : false;
@@ -102,3 +99,11 @@ console.log(isNotZero(5));
 
 console.log(isNotZero(0));
 console.log(isNotZero(null)); */
+/* 
+function calcRemainder(num1, num2) {
+  return num1 % num2;
+}
+
+console.log(calcRemainder(4, 2));
+console.log(calcRemainder(7, 8));
+console.log(calcRemainder(9, 8));
