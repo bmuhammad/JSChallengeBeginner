@@ -48,19 +48,43 @@ console.log(extendString("Apple"));
 console.log(extendString("Banana"));
 console.log(extendString("Orange")); */
 
-function sumGreaterThan100(num1, num2){
+ /* function sumGreaterThan100(num1, num2){
 
     let isGreater = num1 + num2 > 100 ? true : false;
 
     return isGreater;
 
-    /* better
+    better
 return num1 + num2 > 100;
-    */
+   
 }
 
 
 console.log(sumGreaterThan100(20, 10));
 console.log(sumGreaterThan100(50, 60));
 console.log(sumGreaterThan100(100, -50));
+ */
+
+
+/* function lessThanOrEqualToZero(num){
+
+    return num <= 0;
+}
+
+console.log(lessThanOrEqualToZero(3));
+console.log(lessThanOrEqualToZero(0));
+console.log(lessThanOrEqualToZero(-2)); */
+
+function oppositeBoolean(boo){
+
+
+   return !boo;
+   
+  
+
+   
+}
+
+console.log(oppositeBoolean(true));
+console.log(oppositeBoolean(false));
 
