@@ -75,7 +75,7 @@ console.log(lessThanOrEqualToZero(3));
 console.log(lessThanOrEqualToZero(0));
 console.log(lessThanOrEqualToZero(-2)); */
 
-function oppositeBoolean(boo){
+/* function oppositeBoolean(boo){
 
 
    return !boo;
@@ -86,5 +86,19 @@ function oppositeBoolean(boo){
 }
 
 console.log(oppositeBoolean(true));
-console.log(oppositeBoolean(false));
+console.log(oppositeBoolean(false)); */
 
+
+
+/* function isNotZero(num){
+
+    return value = num !=0 ? true : false;
+
+     better 
+    return num !==0 
+}
+
+console.log(isNotZero(5));
+
+console.log(isNotZero(0));
+console.log(isNotZero(null)); */
